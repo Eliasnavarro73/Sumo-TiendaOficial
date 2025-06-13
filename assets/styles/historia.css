@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(35, 60, 218);
+    color: white;
+    position:sticky;
+    top:0;
+    z-index: 11;
+}
+
+header h1{
+    font-size: 1.5rem;
+}
+
+.subtt{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.navdiv{
+    width: 160px;
+    height: 150px;
+    background-color: rgb(115, 194, 224);
+    border: solid 2px ;
+    border-color: black;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.navdiv ul{
+    list-style-type: none;
+}
+
+.imagen {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin: 0 0 16px 16px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    padding: 5px;
+}
+
+.imagen2 {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 0 16px 16px 0;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    padding: 5px;
+}
+
+.imagen img  {
+    width: 100%;
+    height: auto;
+}
+
+.imagen2 img  {
+    width: 100%;
+    height: auto;
+}
+
+.desc-img {
+    padding: 4px 4px 4px 4px;
+    text-align: left;
+    font-size: 12px;
+    color: #000000;
+}
+
+.desc-img  {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2px, 5px, 2px, 5px;
+}
+
+.lista {
+    margin-left: 335px;
+}
+
+.lista2 {
+    margin-bottom: 15px;
+
+}
+
+.marco {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.marcoimg {
+    width: 150px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 3px;
+    text-align: center;
+    font-size: 12px;
+    color: #000000;
+}
+
+.marcoimg img {
+    width: 100%;
+    height: auto;
+}
+
+.textoimg {
+    margin-top: 6px;
+}
+
+.legado {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.leg1 {
+    float: left;
+    width: auto;
+    border: 1px solid #000000;
+    padding: 3px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.leg1 img {
+    width: 200px;
+}
+
+.leg2 {
+    float: right;
+    width: auto;
+    border: 1px solid #000000;
+    padding: 3px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.leg2 img {
+    width: 200px;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 768px) {
+  .navdiv {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .navdiv ul {
+    padding: 0;
+  }
+
+  .imagen,
+  .imagen2 {
+    float: none;
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .lista {
+    margin-left: 20px;
+  }
+
+  .marco {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .marcoimg {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  .legado {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .leg1,
+  .leg2 {
+    float: none;
+    width: 90%;
+  }
+
+  .leg1 img,
+  .leg2 img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .subtt {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    margin: 10px;
+    font-size: 15px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
