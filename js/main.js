@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let totalConDescuento = total;
   let mensajeDescuento = "";
 
-  if (total > 60000) {
+  if (total > 59999) {
     totalConDescuento = total * 0.7;
     mensajeDescuento = " (30% OFF aplicado)";
   }
