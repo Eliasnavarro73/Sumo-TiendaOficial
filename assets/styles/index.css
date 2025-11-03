@@ -198,7 +198,7 @@ section {
 
 .li_carrito {
     display: flex;
-    justify-content: space-between; /* texto a la izquierda, botón a la derecha */
+    justify-content: space-between; 
     align-items: center;
     margin: 0 auto;
 }
@@ -331,6 +331,36 @@ h4{
     font-size: 18px;
     padding: 0 10px;
   }
+
+  .pic{
+  margin-top: 120px;
+  width:"100%"
+  }
+  .contenedor_padre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 180px;
+    height: auto;
+  }
+
+  .card img {
+    width:100%;
+    height:auto;
+  }
+
+  .card_btn {
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+
+
 }
 
 
